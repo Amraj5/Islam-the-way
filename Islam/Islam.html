@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Islam</title>
+  <link rel="stylesheet" href="Islam.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>Discover Islam</h1>
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#pillars">5 Pillars</a></li>
+      <li><a href="#quran">Qur'an Verses</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="intro" class="hero">
+    <h2>Welcome to the Path of Peace</h2>
+    <p>Islam is a religion of peace, mercy, and forgiveness. Learn more below.</p>
+    <button onclick="scrollToSection('pillars')">Explore</button>
+  </section>
+
+  <!-- 5 Pillars Section -->
+  <section id="pillars" class="pillars">
+    <h2>The 5 Pillars of Islam</h2>
+    <div class="cards">
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Shahadah</h3>
+        <p class="hidden">Declaration of Faith: Belief in the oneness of Allah and Muhammad (SAW) as His Messenger.</p>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.bYo1YeMPEhUUUnBMwpo9vQHaEc&w=284&h=284&c=7">
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Salah</h3>
+        <p class="hidden">Prayer: Performing the five daily prayers.</p>
+        <img src="https://tse2.mm.bing.net/th?id=OIP.3wfcT2fML1w3bHL_juB4kAHaHa&w=474&h=474&c=7">
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Zakah</h3>
+        <p class="hidden">Charity: Giving to those in need and supporting the community.</p>
+        
+        <img src="https://tse2.mm.bing.net/th?id=OIP.TWSyBMWLL9JI4IFSitD4AwHaEK&w=266&h=266&c=7">
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Sawm</h3>
+        <p class="hidden">Fasting: Observing fasts during the month of Ramadan.</p>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.CAmBfTnSag9OG8USwD9BZAHaE8&w=316&h=316&c=7">
+      </div>
+      <div class="card" onclick="toggleCard(this)">
+        <h3>Hajj</h3>
+        <p class="hidden">Pilgrimage: Journey to the holy city of Mecca once in a lifetime.</p>
+        <img src="https://tse4.mm.bing.net/th?id=OIP.g1QCVcAF7i-KjW0yhHgz4AHaFj&w=355&h=355&c=7" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Qur'an Verses Slider -->
+  <section id="quran" class="quran">
+    <h2>Inspirational Qur'an Verses</h2>
+    <div class="slider">
+      <div class="slide active">"Indeed, Allah is with those who are patient." - Qur'an 2:153</div>
+      <div class="slide">"And whoever puts their trust in Allah, then He will suffice them." - Qur'an 65:3</div>
+      <div class="slide">"Verily, in the remembrance of Allah do hearts find rest." - Qur'an 13:28</div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>What does Islam mean?</h3>
+      <p class="hidden">Islam means "submission" to the will of Allah and promoting peace.</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>Who is Allah?</h3>
+      <p class="hidden">Allah is the Arabic word for God, the one and only Creator.</p>
+    </div>
+  </section>
+
+  <script src="ISLAM.js"></script>
+</body>
+</html>
